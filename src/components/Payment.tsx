@@ -45,7 +45,7 @@ const Payment=({route})=>{
                                 <Icon name={method===0?'dot-circle-o':'circle-o'} style={[styles.iconer,{color:method===0?'#14ade9ff':'#050505ff'}]}/>
                                 <Text style={styles.text}>UPI</Text>
                             </View>
-                        <Image source={require('../assets/upi.png')} style={styles.image}/>
+                        <Image source={require('../assets/upiicon.png')} style={styles.image}/>
                     </TouchableOpacity>
                     <TouchableOpacity
                         onPress={()=>setmethod(1)}
